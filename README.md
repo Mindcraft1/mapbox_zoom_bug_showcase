@@ -1,6 +1,6 @@
 # mapbox_zoom_bug_showcase
 
-This repo reproduces the issue mentioned [here](https://github.com/mapbox/mapbox-gl-js/issues/6722#issuecomment-427935000) using mapbox-gl version 0.49.0.
+This repo reproduces the issue mentioned [here](https://github.com/mapbox/mapbox-gl-js/issues/7397) using mapbox-gl version 0.49.0.
 
 I observed the same behaviour on version 50 beta.
 
