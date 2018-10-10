@@ -1,6 +1,6 @@
 import mapboxgl from 'mapbox-gl'
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibWluZGNyYWZ0MSIsImEiOiJjamw5ZWZ2NjIxenRtM3FtcW84bm9jcHB6In0.9fpJRRqBlyzbR9yv11t4vQ'
+mapboxgl.accessToken = 'your access token'
 
 const map = new mapboxgl.Map( {
   container: 'map',

@@ -6,6 +6,8 @@ I observed the same behaviour on version 50 beta.
 
 Start the example:
 
+Insert a valid mabox-gl access token in src/index.js
+
 `
 npm run start
 `
