@@ -1,0 +1,36 @@
+{
+  "name": "mapbox_zoom_bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/index.js -t > ./app.js",
+    "serve": "serve -p 12345",
+    "start": "npm i && npm run build && npm run serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ],
+    "plugins": []
+  },
+  "dependencies": {
+    "mapbox-gl": "^0.49.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^7.3.0",
+    "serve": "*",
+    "browserify": "*"
+  }
+}
